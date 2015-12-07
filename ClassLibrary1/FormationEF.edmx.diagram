@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c560600ac8a4f7aa1529a586bbf454e" Name="Diagram1">
+        <EntityTypeShape EntityType="FormationEFModel.Author" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormationEFModel.Card" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormationEFModel.Media" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormationEFModel.Page" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormationEFModel.Publisher" Width="1.5" PointX="0.875" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="FormationEFModel.FK_Media_id_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="FormationEFModel.FK_Page_id_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="FormationEFModel.mediaauthor" ManuallyRouted="false" />
+        <AssociationConnector Association="FormationEFModel.mediacard" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
